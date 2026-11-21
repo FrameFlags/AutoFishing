@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0"
+
+[[mods]]
+modId="itamioautofish"
+version="1.0.0"
+displayName="Auto Fishing+ — Itamio Port"
+authors="Sekai0NI0itamio"
+description='''Automatically reels in when a fish bites, then recasts. Client-side only; no commands, GUI or config screen.'''
+credits='''Port of Auto-Fishing by Tr4nter (GPL-3.0). See CREDITS.md and LICENSE.gpl.txt.'''
+
+[[dependencies.itamioautofish]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.itamioautofish]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

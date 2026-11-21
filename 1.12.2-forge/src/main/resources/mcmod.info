@@ -1,0 +1,14 @@
+[{
+  "modid": "itamioautofish",
+  "name": "Auto Fishing+ — Itamio Port",
+  "description": "Automatically reels in when a fish bites, then recasts. Client-side only; no commands, GUI or config screen.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Tr4nter/Auto-Fishing",
+  "updateUrl": "",
+  "authorList": ["Sekai0NI0itamio"],
+  "credits": "Port of Auto-Fishing by Tr4nter (GPL-3.0). See CREDITS.md and LICENSE.gpl.txt.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
