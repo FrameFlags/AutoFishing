@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "itamioautofish",
+  "version": "${version}",
+  "name": "Auto Fishing+ — Itamio Port",
+  "description": "Automatically reels in when a fish bites, then recasts. Client-side only; no commands, GUI or config screen.",
+  "authors": [
+    "Sekai0NI0itamio"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Tr4nter/Auto-Fishing",
+    "sources": "https://github.com/FrameFlags/AutoFishing",
+    "issues": "https://github.com/FrameFlags/AutoFishing/issues"
+  },
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "itamio.iamautofish.AutoFishMod"
+    ]
+  },
+  "mixins": [
+    "itamioautofish.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
